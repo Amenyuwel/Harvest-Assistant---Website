@@ -1,0 +1,9 @@
+POST https://harvest.dermocura.net/PHP_API/calendarbayot.php HTTP/1.1
+content-type: application/json
+
+{
+    "farmer_id": 1,
+    "crop_id": 2,
+    "area": 2.8,
+    "plant_date": "2024-10-01"
+}

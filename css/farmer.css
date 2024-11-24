@@ -1,0 +1,75 @@
+#update{
+    height: 1.5rem;
+    width: 100px;
+    padding: 0 4px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: green;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#delete{
+    width: 100px;
+    height: 1.5rem;
+    padding: 0 4px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: red;
+    cursor: pointer;
+}
+.updel{
+    color: white;
+}
+
+option {
+  color: black; 
+  background-color: white; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  width: 100%; 
+}
+
+.file-input{
+    display: block;
+    width: 100%;
+    background-color: #ffffff12;
+    padding: 10px 5px;
+    margin: 20px 0;
+}
+
+.alert-error{
+    margin: 10px 0;
+    padding: 10px 0;
+    color: red;
+}
+
+.btn-main{
+    padding: 10px;
+    background-color:var(--green1);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.feedback.success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+.feedback.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}

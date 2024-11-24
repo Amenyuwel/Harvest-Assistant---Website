@@ -1,0 +1,7 @@
+POST https://harvest.dermocura.net/PHP_API/update_harvest.php HTTP/1.1
+content-type: application/json
+
+{
+    "farmer_id": 1,
+    "date_harvested": "2024-09-25"
+}

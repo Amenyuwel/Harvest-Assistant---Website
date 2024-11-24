@@ -1,0 +1,9 @@
+POST https://harvest.dermocura.net/PHP_API/calendar.php HTTP/1.1
+content-type: application/json
+
+{
+    "farmer_id": 5,
+    "crop_id": 1,
+    "area": 2.3,
+    "planting_date": "2024-07-01"
+}

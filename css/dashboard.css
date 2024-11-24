@@ -1,0 +1,204 @@
+/* ================== Modal ============== */
+
+:root{
+  --white: white;
+  --grey: #b4b5c2;
+  --green1: #114232;
+  --black: #131b11;
+  --yellow: #FCDC2A;
+  --green2: #87A922;
+  --beige: #F7F6BB;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .popup-content {
+    position: relative;
+    margin: 10px auto;
+    width: 420px;
+    background: transparent;
+    background: var(--green1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: var(--white);
+    padding: 30px 35px;
+    border-radius: 15px;
+    text-align: center;
+  }
+
+  .close {
+    position: absolute;
+    color: #aaa;
+    top: 0;
+    right: 10px;
+    font-size: 28px;
+
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .popup-content h3{
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.lbl{
+    text-align: left;
+    display: block;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.inp{
+    display: block;
+    border: none;
+    outline: none;
+    color: #e5e5e5;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    padding: 0 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.addfarmer{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ================== Recent Harvest ============== */
+.details {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+  /* margin-top: 10px; */
+}
+
+.details .recentHarvest {
+  position: relative;
+  display: inline-block;
+  min-height: 500px;
+  margin-top: 10px;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.details .cardHeader {
+  height: 50px;
+  align-items: flex-start;
+}
+.cardHeader h2 {
+  font-weight: 600;
+}
+
+.details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details table thead td {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.details .recentHarvest table tr {
+  color: var(--black1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.details .recentHarvest table tr:last-child {
+  border-bottom: none;
+}
+.details .recentHarvest table tbody tr:hover {
+  background: var(--green1);
+  color: var(--white);
+}
+.details .recentHarvest table tr td {
+  padding: 5px;
+}
+.details .recentHarvest table tr td:last-child {
+  text-align: center;
+}
+.details .recentHarvest table tr td:nth-child(2) {
+  text-align: center;
+}
+.details .recentHarvest table tr td:nth-child(3) {
+  text-align: center;
+}
+
+.PendingFarmer {
+  position: relative;
+  display: inline-block;
+  min-height: 500px;
+  padding: 20px;
+  background: var(--white);
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.PendingFarmer table tr td {
+  padding: 12px 10px;
+}
+.PendingFarmer table tr td h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+.PendingFarmer table tr td h4 span {
+  font-size: 14px;
+}
+.PendingFarmer table tr:hover {
+  background: var(--green1);
+  color: var(--white);
+}
+.PendingFarmer table tr:hover td h4 span {
+  color: var(--white);
+}
+
+.view-button {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 16px; 
+  border-radius: 5px; 
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block;
+  transition: background-color 0.3s ease; 
+  font-size: 18px;
+}
+
+.view-button:hover {
+  color: #080710;
+  background-color: var(--white); 
+}
+
+.view-button i {
+  vertical-align: middle;
+}

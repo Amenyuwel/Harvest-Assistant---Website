@@ -1,0 +1,6 @@
+POST https://harvest.dermocura.net/PHP_API/fetch_calendar.php HTTP/1.1
+content-type: application/json
+
+{
+    "farmer_id": 5
+}
